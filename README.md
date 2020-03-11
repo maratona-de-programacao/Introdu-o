@@ -1,3 +1,3 @@
 # Introdução
 
-Introdução à programação C e C++.
+Introdução à programação em C e C++.
