@@ -1,13 +1,13 @@
-## **Introdução a Maratona De Programação - UNIOESTE *<3***  
+## **Introdução a Maratona De Programação - UNIOESTE <3**  
 
-Primeiramente os integrantes veteranos do projeto desejam-lhes parabéns por querer fazer parte deste maravilhoso projeto.  
+Primeiramente os integrantes veteranos do projeto desejam-lhes parabéns por quererem fazer parte deste maravilhoso projeto **:3**.  
 
 Enfim vamos ao que interessa, **CODAR!!**
 
 Antes de sair escrevendo códigos com milhões de linhas como um maniaco. Existem algumas competências básicas necessárias.
 
 ### 1. Linguagem utilizada na maratona?  
->**1 - R.:** Normalmente na maratona a linguagem de programação utilizada é "livre¹"(durante o projeto vocês poderão utilizar qualquer linguagem listadas abaixo²).
+>**1 - R.:** Normalmente na maratona a linguagem de programação utilizada é "livre"<sup id="n1">[1](#fn1)</sup>(durante o projeto vocês poderão utilizar qualquer linguagem listadas abaixo)<sup id="n2">[2](#fn2)</sup>.
 >>**- C**  
 >>**- C++**  
 >>**- C#**  
@@ -22,9 +22,10 @@ Antes de sair escrevendo códigos com milhões de linhas como um maniaco. Existe
 >>**- Pascal**  
 >>**- Haskell**  
 >>**- OCAML**  
->  
->**¹ -** *Nem todas as linguagens, assim como suas versões são autorizadas na competição da **ICPC***  
->**² -** *Linguagens aceitas pelo* **[URI](https://www.urionlinejudge.com.br)**
+
+>**NOTAS**  
+>**<b id="fn1">1</b>-** *Nem todas as linguagens, assim como suas versões são autorizadas na competição da **ICPC*** [↩](#n1)   
+>**<b id="fn2">2</b>: -** *Linguagens aceitas pelo* **[URI](https://www.urionlinejudge.com.br)** [↩](#n2)  
 
 ### 2. Não sei nem o que é programar o que fazer?
 
@@ -35,7 +36,7 @@ Antes de sair escrevendo códigos com milhões de linhas como um maniaco. Existe
 
 ### 3. Vamos ao que interessa então?
 
->>**3 - R.:** Não... Quero dizer **SIM...**
+>**3 - R.:** Não... Quero dizer **SIM...**
 
 ### 4. Conceitos básicos
 
@@ -83,4 +84,27 @@ return 0;
 //Na sequencia falaremos sobre isso
 ~~~~
 
-### 4.2. Indentado, parenteses balanceados e outros detalhes
+### 4.2. Indentação & parenteses balanceados
+
+Bom jovem padawan, você deve estar se perguntando sobre a necessidade de eu estar falando sobre isso. Porém na programação é necessário ter alguns cuidados na hora de escrever seus programas, como diria Jack "Vamos por partes".
+
+- **Indentação:** *Para nós da ciencia da computação é um termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Na maioria das linguagens de programação, a indentação é empregada com o objetivo de ressaltar a estrutura do algoritmo, aumentando assim a legibilidade do código.* - Fonte: [Wikipédia](https://pt.wikipedia.org/wiki/Indenta%C3%A7%C3%A3o), **RECOMENDAMOS FORTEMENTE QUE VEJAM O EXEMPLO DA WIKI**, caso não queira ver é basicamente você dar **'tabs'** no código. Criando assim espécie de paragrafos. Estes 'paragrafos' servem pra mostrar o código que está dentro de um **IF** ou um **WHILE/FOR** ou até mesmo dentro de uma **FUNÇÃO**
+>De uma olhada no código da parte **4.1**, lá você pode ver a função main e um espaço no inicio de cada linha. Esse espaço é o nosso **"Paragrafo"**
+
+- **Parenteses"()" & Chaves"{}" Balanceados<sup id="n3">[1](#fn3)</sup>:** Este é um conceito mais facil de se explicar e aprender. Em resumo é basicamente você ter o mesmo número **parenteses e chaves** abertas
+
+>**Ex.:**
+>Parenteses balanceados**<sup id="n3">[1](#fn3)**: ((((((()))))))  
+>Parenteses desbalanceados**¹**: (((((()))))  
+>Percebam que no exemplo de parenteses desbalanceados o numero de **"("** é maior que o numero de **")"**  
+> O mesmo vale para **chaves "{}"**, porém o uso delas é indicado para delimitar **Funções (*Ver exemplo da sessão 4.1*) e laços de repetição**
+
+>**NOTAS**  
+>**<b id="fn3">1</b>-** *"Tava muito broken os dois e veio os programadores e nerfaram eles neste patch"* [↩](#n3)
+
+### 5. Como começar?
+
+Bom Falamos, falamos, jogamos alguns conceitos. **Mas tá, quando iremos começar?**  
+Eu juro que no item **6.** já começaremos a botar a mão na massa. Mas antes de sair loucamente **codando**. Antes de mais nada você precisa instalar um **COMPILADOR**. Para tal sugerimos que você instale o programa **[CodeBlocks](http://www.codeblocks.org/), <sup id="n4">[1](#fn4)</sup> (LEIA A NOTA ANTES DE SAIR INSTALANDO)**, este programa é um **Ambiente de Desenvolvimento Inegrado(IDE)**. Nele você encontrará uma interface de desenvolvimento, acompanhada de um compilador da linguagem **C**
+
+<b id="fn4">1</b>: **Baixem o codeblocks-(versão)-setup.exe**, durante a instalação recomendamos que deixe tudo como está, só ir em **Next, ..., Next, install**.Caso alguém use linux é só seguir o tutorial do site **:P** [↩](#n4)
